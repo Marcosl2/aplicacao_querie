@@ -10,4 +10,21 @@ class Main extends BaseController
     {
         return view('login');
     }
+
+    //_____________________________________________________________
+    // login
+    //______________________________________________________________
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function login_submit()
+    {
+        echo 'aqui';
+    }
+    public function logout()
+    {
+        echo 'aqui logout';
+    }
 }

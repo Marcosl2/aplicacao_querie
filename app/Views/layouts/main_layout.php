@@ -7,10 +7,11 @@
     <title><?= APP_NAME ?></title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
-    <!-- css -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+    
     <!-- fontawesome  -->
     <link rel="stylesheet" href="<?= base_url('assets/fontawesome/css/all.min.css') ?>">
+    <!-- css -->
+    <link rel="stylesheet" href="<?= base_url('assets/css/app.css') ?>">
 </head>
 
 <body>
